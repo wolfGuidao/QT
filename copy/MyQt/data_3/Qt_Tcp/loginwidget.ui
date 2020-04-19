@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LogInWidget</class>
+ <widget class="QWidget" name="LogInWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="2" colspan="4">
+    <widget class="QTextEdit" name="textEdit">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>UserName:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2" colspan="4">
+    <widget class="QLineEdit" name="lineEditUserName"/>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Passwd:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2" colspan="4">
+    <widget class="QLineEdit" name="lineEditPasswd"/>
+   </item>
+   <item row="3" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>64</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="1" colspan="2">
+    <widget class="QPushButton" name="pushButtonLogIn">
+     <property name="text">
+      <string>LogIn</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="3">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>16</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="4">
+    <widget class="QPushButton" name="pushButtonRegister">
+     <property name="text">
+      <string>Register</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="5">
+    <spacer name="horizontalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>17</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="6">
+    <widget class="QPushButton" name="pushButtonQuit">
+     <property name="text">
+      <string>Quit</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="7">
+    <spacer name="horizontalSpacer_4">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
